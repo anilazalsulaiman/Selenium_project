@@ -11,7 +11,7 @@ public class FirstSelenium {
 		// System.out.println(list.contains("name2"));
 
 		boolean find = true;
-		// System.out.println(list.size());
+		 System.out.println(list.size());
 		int length = list.size();
 		for (int i = 0; i < length; i++) {
 			if (list.get(i).contains("name2")) {
