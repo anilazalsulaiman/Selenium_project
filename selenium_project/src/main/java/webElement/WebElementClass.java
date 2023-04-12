@@ -40,5 +40,8 @@ public class WebElementClass {
 		String attributevalue=loginButton.getAttribute("name"); //to get the values by giving attribute type
 		System.out.println(attributevalue);
 		
+		String tagname=loginButton.getTagName();
+		System.out.println(tagname);
+		
 	}
 }

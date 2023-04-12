@@ -37,6 +37,7 @@ public class FirstSeleniumClass {
 
 		// driver.close(); // current or focused window only close
 		driver.quit(); // all windows will close including web driver instance
+		String parentWindowId=driver.getWindowHandle(); //parent window id
 
 	}
 
