@@ -1,0 +1,7 @@
+<suite name="My_suit">
+	<test name="My_test">
+		<classes>
+			<class name="TestNG.FirstTestNG"></class>
+		</classes>
+	</test>
+</suite>

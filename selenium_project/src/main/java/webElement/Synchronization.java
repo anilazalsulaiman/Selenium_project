@@ -61,7 +61,7 @@ public class Synchronization {
 
 			   WebElement foo = fluentWait.until(new Function<WebDriver, WebElement>() {
 			     public WebElement apply(WebDriver driver) {
-			       return driver.findElement(By.id("foo"));
+			       return driver.findElement(By.className("btn btn-primary"));
 			     }
 			   });
 
