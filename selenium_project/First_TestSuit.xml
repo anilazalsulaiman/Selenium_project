@@ -1,0 +1,9 @@
+<suite name="My_suit">
+	<test name="My_test">
+	<parameter name="param" value="100"></parameter>
+	<parameter name="param1" value="Anilaz"></parameter>
+		<classes>
+			<class name="TestNG.ParameterClass"></class>
+		</classes>
+	</test>
+</suite>

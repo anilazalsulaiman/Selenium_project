@@ -19,9 +19,10 @@ public class JavaScriptRead {
 		driver.manage().window().maximize();
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeAsyncScript("window.scrollBy(0,1500)", ""); //page scroll vertical pixel position is 1000
-		WebElement dummy=driver.findElement(By.id("dummyid"));
-		js.executeScript("arguments[0].click();", "dummy");
+		js.executeScript("window.scrollBy(0,1500)", ""); //page scroll vertical pixel position is 1000
+		
+//		WebElement dummy=driver.findElement(By.id("dummyid")); //for click an element using javascript
+//		js.executeScript("arguments[0].click();", "dummy");
 		
 		
 

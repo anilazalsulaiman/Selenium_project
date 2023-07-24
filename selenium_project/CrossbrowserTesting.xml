@@ -1,0 +1,14 @@
+<suite name="My_suit">
+	<test name="Chrome_test">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="TestNG.BeforeafterMethod"></class>
+		</classes>
+	</test>
+	<test name="Edge_test">
+	<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="TestNG.BeforeafterMethod"></class>
+		</classes>
+	</test>
+</suite>

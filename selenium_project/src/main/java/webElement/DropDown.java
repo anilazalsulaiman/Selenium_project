@@ -22,23 +22,22 @@ public class DropDown {
 
 		WebElement dropdown = driver.findElement(By.id("single-input-field"));
 		Select drp=new Select(dropdown);
-//		drp.selectByIndex(1);
-//		drp.selectByVisibleText("Yellow");
-//		drp.selectByValue("Green");
-//		WebElement drpSelectedValue=drp.getFirstSelectedOption();
-//		String webelementstore=drpSelectedValue.getText();
-//		System.out.println(webelementstore);
+		drp.selectByIndex(1);
+		drp.selectByVisibleText("Yellow");
+		drp.selectByValue("Green");
+		WebElement drpSelectedValue=drp.getFirstSelectedOption();
+		String webelementstore=drpSelectedValue.getText();
+		System.out.println(webelementstore);
 		
-		WebElement multiDropdown=driver.findElement(By.id("multi-select-field"));
-		Select multidrp=new Select(multiDropdown);
-		multidrp.selectByValue("Red");
-		multidrp.selectByIndex(1);
-		List<WebElement> list=multidrp.getAllSelectedOptions();
-		//System.out.println(list);
-		for(int i=0;i<list.size();i++) {
-			String getList=list.get(i).getText();
-			System.out.println(getList);
-		}
+//		WebElement multiDropdown=driver.findElement(By.id("multi-select-field"));
+//		Select multidrp=new Select(multiDropdown);
+//		multidrp.selectByValue("Red");
+//		multidrp.selectByIndex(1);
+//		List<WebElement> list=multidrp.getAllSelectedOptions();
+//		for(int i=0;i<list.size();i++) {
+//			String getList=list.get(i).getText();
+//			System.out.println(getList);
+//		}
 		
 
 	}

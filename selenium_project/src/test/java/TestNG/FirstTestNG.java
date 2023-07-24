@@ -42,7 +42,7 @@ public class FirstTestNG {
 //  }
   
 //  @BeforeClass
-//  public void beforeClass() { //first run before method->All methods in class->after method
+//  public void beforeClass() { //first run before class->All methods in class->after method
 //	  System.out.println("Before class is executed");
 //  }
 //  @AfterClass
@@ -65,9 +65,9 @@ public class FirstTestNG {
 
 //  @BeforeSuite
 //  public void beforeSuit() { 
-//	  //When run a package first run before test
-//	  //->All class in that package run randomly
-//	  //->after complete classes in package after test run
+//	  //When run a suit first run before suit
+//	  //->All test in that suit run randomly
+//	  //->after complete all test in package after suit will run
 //	  System.out.println("Before Suite -  is executed");
 //  }
 //  @AfterSuite
