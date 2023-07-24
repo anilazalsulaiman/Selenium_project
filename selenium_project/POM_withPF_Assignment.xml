@@ -1,0 +1,9 @@
+<suite name="My_suit">
+	<test name="My_test">
+		<classes>
+			<class name="testcase_POM_Assert_Assignment.TestcaseClientPageAssertionWithPF"></class>
+			<class name="testcase_POM_Assert_Assignment.WorkersPageAssertionWithPF"></class>
+		</classes>
+	</test>
+	
+</suite>
